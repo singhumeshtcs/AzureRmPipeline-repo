@@ -13,6 +13,10 @@
         "defaultValue": "[resourceGroup().location]"
       }
     },
+
+
+
+    
   "functions": [],
    "variables": {
     "storageAccountName": "[concat(parameters('storageName'),substring(uniqueString(resourceGroup().id),0,7))]"
